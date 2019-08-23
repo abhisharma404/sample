@@ -45,8 +45,8 @@ Currently the following features are supported:
 - [x] Notifying suspicious activities using various mediums (Twitter, Telegram, Slack, Gmail, SMS, AWS & more)
 - [x] Interactive GUI for ease of setting up
 
-Project URL: https://www.github.com/OWASP/SecureTea-Project
-IRC channel: link
+Project URL: https://www.github.com/OWASP/SecureTea-Project<br>
+IRC channel: https://t.me/joinchat/Az5yZxQg7Djs-UZWKKCRVQ
 
 ### Proposed summary
 
@@ -57,10 +57,30 @@ Laying down a strong foundation & base architecture for Intrusion detection & pr
 ### Work done
 
 Summary of the work done during the GSoC Phase (I - III):
-"""This needs detailed Improvement."""
 
 - Implemented Intrusion Detection System capable of detecting R2L attacks and reconnaissance attacks
+    - Detect probe (**reconnaissance**) attacks (performed for information gathering)
+        - General scans: TCP ACK & TCP Window, UDP, ICMP scans
+        - Stealth scans: FIN, XMAS, NULL scans
+        - OS fingerprinting scans
+
+    - Detect Denial of Service (DoS) & Remote to Local (R2L) attacks
+        - DoS attacks
+        - CAM Table Exhaustion
+        - DHCP Exhaustion
+        - Man in The Middle (MiTM) / ARP cache poisoning
+        - SYN flood attack
+        - Ping of death
+        - Land attack
+        - Wireless
+           - Deauthentication attack
+           - Hidden node attack
+           - SSID spoofing
+           - Fake access point
+           
 - Introduced advanced packet filter rules for Firewall
+
+
 - Introduced PCAP dumping of rejected packets for future forensic analysis
 - Implemented System Log Monitor capable of detecting un-authorized system manipulation and attacks
 - Implemented Server Log Monitor capable of processing Apache & Nginx log files to detect web attacks
