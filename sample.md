@@ -78,8 +78,38 @@ Summary of the work done during the GSoC Phase (I - III):
            - SSID spoofing
            - Fake access point
            
-- Introduced advanced packet filter rules for Firewall
+- Introduced advanced packet filter rules for Firewall:
 
+    Improved the overall functionalities of the current firewall by adding new packet rules at
+    IP, TCP & ICMP level to detect attacks like fragmentation, malicious and malformed
+    packets, enable PCAP dumping of rejected packets.
+
+    1. Enabled **PCAP** dumping of rejected packets for future forensic analysis.
+    2. Enhance **IP** packet inspection to detect fragmentation attack & malformed IP
+    packets:
+    - **Check for malformed IP packets & fragmentation**:
+        - **Check first fragment:** Drop packet if flag is “MF”, offset value is 0
+    & total length < 120 bytes.
+        - **Check IP fragment boundary:** Drop a packet if
+    packet length + fragmentation offset > 65355
+        - **Check IP fragment small offset:** Drop a packet if
+    0 < fragmentation offset < 60
+       - **Check for unknown IP version**
+       - **Check invalid IP:** Drop a packet if IP is invalid or
+    IPsource = 0.0.0.0
+       - **Check invalid IP header length:** Drop a packet if
+    IP header < 20 bytes
+    3. Enhance **TCP** layer inspection:
+       - Enable **network congestion** detection by observing “**ECE**” flag at the TCP
+    layer to reject packets.
+       - Check whether “**FIN**” flag is set but not “**ACK**”:  TCP segments with the FIN flag set also have the ACK flag set to acknowledge the previous packet received.
+       - Check if **NO** flag is set, such packet is anomalous and should be dropped.
+       - **Check for SYN fragmentation:** Drop a packet if
+    (TCP x02) ∩ (IP MF" U IP )
+    flag = 0 flag = " fragment > 0
+    4. **Block ICMP fragmentation attack:** Drop a packet if
+    (IP x01) ∩ (IP MF" U IP ) protocol = 0 flag = " fragment > 0
+    5. **Check for large ICMP packets:** ICMP messages are short messages, there is no reason for it to be long, hence a long ICMP packet is suspicious. Drop a packet if protocol is set to ICMP, and length > 1024 bytes.
 
 - Introduced PCAP dumping of rejected packets for future forensic analysis
 - Implemented System Log Monitor capable of detecting un-authorized system manipulation and attacks
