@@ -20,7 +20,7 @@
 
 - [Screenshots, screenscasts and tutorial videos](#screenshots,-screenscasts-and-tutorial-videos)
 
-- Future work
+- [Future work](#future-work)
 
 - Personal experience and journey
 
@@ -287,7 +287,13 @@ Laying down a strong foundation & base architecture for Intrusion detection & pr
 View list of commits [here](https://github.com/OWASP/SecureTea-Project/commits?author=abhisharma404)
 
 ### Contribution graph and status
+
+**Commits:**
+
 ![graph](/img/Commits_abhisharma404.png)
+
+**Contribution to OWASP:**
+
 ![graph](/img/Contributions_abhisharma404.png)
 
 ## Blog posts made
@@ -314,7 +320,9 @@ The followings are the projected milestone for the next release:
 
 - Adding more features
     - **SecureTea browser plugin:** A plugin which can scan for harmful URL, monitor every URL, detect phishing sites & restrict internet activity.
-    - **Real-time log visualization & monitoring dashboard:** If plotted in a graph with the right metrics, they can give back so vitalinformation just by looking. And plotting them realtime? ​ We are catching a thief red-handed​ , that’s quite cool! We can use Plotly to build this, it’s much more easy to integrate with a Flask app.
+    
+    - **Real-time log visualization & monitoring dashboard:** If plotted in a graph with the right metrics, they can give back so vital information just by looking. And plotting them realtime? We are catching a thief red-handed, that’s quite cool! We can use Plotly to build this, it’s much more easy to integrate with a Flask app.
+    
     - **Enhance AntiVirus:**
     
         **a. Behavioural based:<br>**
