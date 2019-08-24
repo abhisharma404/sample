@@ -2,14 +2,14 @@
 
 ## Table of Contents
 
-- Overview
-    - About me
-    - Project details
-    - Proposed summary
-    - Work done
+- [Overview](#overview)
+    - [About me](#about-me)
+    - [Project details](#project-details)
+    - [Proposed summary](#proposed-summary)
+    - [Work done](#work-done)
 
-- Contributions
-    - Pull requests
+- [Contributions](#contributions)
+    - [Pull requests](#pull-requests)
         - Detailed view in Google docs (with links to the PR)
         - Minimal view in Google spreadsheet (with links to the PR)
         - View here
@@ -27,6 +27,17 @@
 - Conclusion
 
 ## Overview
+
+### About Me
+
+- **Name:** Abhishek Sharma
+- **Major:** Computer Science & Engineering
+- **University:** Chandigarh University
+- **GitHub:** [@abhisharma404](https://github.com/abhisharma404)
+- **E-mail:** abhishekchem98@gmail.com​, ​abhishek_official@hotmail.com
+- **Telegram ID:** abhisharma404
+- **Personal website / blog:** https://abhisharma404.blogspot.com/
+
 ### Project details
 
 The OWASP SecureTea Project focuses on providing a one-stop security solution for various devices (personal computers / servers / IoT devices).
@@ -45,8 +56,8 @@ Currently the following features are supported:
 - [x] Notifying suspicious activities using various mediums (Twitter, Telegram, Slack, Gmail, SMS, AWS & more)
 - [x] Interactive GUI for ease of setting up
 
-Project URL: https://www.github.com/OWASP/SecureTea-Project<br>
-IRC channel: https://t.me/joinchat/Az5yZxQg7Djs-UZWKKCRVQ
+**Project URL:** https://www.github.com/OWASP/SecureTea-Project<br>
+**IRC channel:** https://t.me/joinchat/Az5yZxQg7Djs-UZWKKCRVQ
 
 ### Proposed summary
 
@@ -56,7 +67,7 @@ Laying down a strong foundation & base architecture for Intrusion detection & pr
 
 ### Work done
 
-Summary of the work done during the GSoC Phase (I - III):
+**Summary of the work done during the GSoC Phase (I - III):**
 
 - Implemented Intrusion Detection System capable of detecting:
     - [DoS and R2L attacks](https://github.com/OWASP/SecureTea-Project/pull/102)
@@ -94,7 +105,7 @@ Summary of the work done during the GSoC Phase (I - III):
 - [Introduced IoT Anonymity checker to protect IoT devices and check their visibility under the Shodan radar](https://github.com/OWASP/SecureTea-Project/pull/153)
 
 - Performed elemental connections of elements & introduced 3 modes:
-    - [Server mode](https://github).com/OWASP/SecureTea-Project/pull/187)
+    - [Server mode](https://github.com/OWASP/SecureTea-Project/pull/187)
     - [System mode](https://github.com/OWASP/SecureTea-Project/pull/188)
     - [IoT mode](https://github.com/OWASP/SecureTea-Project/pull/190)
 
