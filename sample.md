@@ -57,8 +57,12 @@ Currently the following features are supported:
 - [x] Notifying suspicious activities using various mediums (Twitter, Telegram, Slack, Gmail, SMS, AWS & more)
 - [x] Interactive GUI for ease of setting up
 
+**Organisation:** OWASP Foundation<br>
 **Project URL:** https://www.github.com/OWASP/SecureTea-Project<br>
-**IRC channel:** https://t.me/joinchat/Az5yZxQg7Djs-UZWKKCRVQ
+**IRC channel:** https://t.me/joinchat/Az5yZxQg7Djs-UZWKKCRVQ<br>
+**Mentor:** Rejah Rehim [(@rejahrehim)](https://github.com/rejahrehim)<br>
+**Proposal Title:** Laying down base architecture<br>
+**Tag:** securetea tools<br>
 
 ### Proposed summary
 
