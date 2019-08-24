@@ -59,75 +59,45 @@ Laying down a strong foundation & base architecture for Intrusion detection & pr
 Summary of the work done during the GSoC Phase (I - III):
 
 - Implemented Intrusion Detection System capable of detecting R2L attacks and reconnaissance attacks
-    - Detect probe (**reconnaissance**) attacks (performed for information gathering)
-        - General scans: TCP ACK & TCP Window, UDP, ICMP scans
-        - Stealth scans: FIN, XMAS, NULL scans
-        - OS fingerprinting scans
-
-    - Detect Denial of Service (DoS) & Remote to Local (R2L) attacks
-        - DoS attacks
-        - CAM Table Exhaustion
-        - DHCP Exhaustion
-        - Man in The Middle (MiTM) / ARP cache poisoning
-        - SYN flood attack
-        - Ping of death
-        - Land attack
-        - Wireless
-           - Deauthentication attack
-           - Hidden node attack
-           - SSID spoofing
-           - Fake access point
            
 - Introduced advanced packet filter rules for Firewall:
 
     Improved the overall functionalities of the current firewall by adding new packet rules at
     IP, TCP & ICMP level to detect attacks like fragmentation, malicious and malformed
     packets, enable PCAP dumping of rejected packets.
-
-    1. Enabled **PCAP** dumping of rejected packets for future forensic analysis.
-    2. Enhance **IP** packet inspection to detect fragmentation attack & malformed IP
-    packets:
-    - **Check for malformed IP packets & fragmentation**:
-        - **Check first fragment:** Drop packet if flag is “MF”, offset value is 0
-    & total length < 120 bytes.
-        - **Check IP fragment boundary:** Drop a packet if
-    packet length + fragmentation offset > 65355
-        - **Check IP fragment small offset:** Drop a packet if
-    0 < fragmentation offset < 60
-       - **Check for unknown IP version**
-       - **Check invalid IP:** Drop a packet if IP is invalid or
-    IPsource = 0.0.0.0
-       - **Check invalid IP header length:** Drop a packet if
-    IP header < 20 bytes
-    3. Enhance **TCP** layer inspection:
-       - Enable **network congestion** detection by observing “**ECE**” flag at the TCP
-    layer to reject packets.
-       - Check whether “**FIN**” flag is set but not “**ACK**”:  TCP segments with the FIN flag set also have the ACK flag set to acknowledge the previous packet received.
-       - Check if **NO** flag is set, such packet is anomalous and should be dropped.
-       - **Check for SYN fragmentation:** Drop a packet if
-    (TCP x02) ∩ (IP MF" U IP )
-    flag = 0 flag = " fragment > 0
-    4. **Block ICMP fragmentation attack:** Drop a packet if
-    (IP x01) ∩ (IP MF" U IP ) protocol = 0 flag = " fragment > 0
-    5. **Check for large ICMP packets:** ICMP messages are short messages, there is no reason for it to be long, hence a long ICMP packet is suspicious. Drop a packet if protocol is set to ICMP, and length > 1024 bytes.
-
-- Introduced PCAP dumping of rejected packets for future forensic analysis
+      
 - Implemented System Log Monitor capable of detecting un-authorized system manipulation and attacks
+
 - Implemented Server Log Monitor capable of processing Apache & Nginx log files to detect web attacks
+
 - Implemented AntiVirus by using signature scanning and incorporating other open source antivirus for heruistic scanning
+
 - Introduced SecureTea Auto Server Patcher to patch system and server configurations for maximum security features & overcome common deployment mistakes
+
 - Implemented Local web deface detection & prevention mechanism
+
 - Brought intelligence to Firewall by making it learn bad IPs from Intrusion Detection System, System Log Monitor, Server Log Monitor
-- Introduced auto detail collection of hackers using the bad IPs as collected by IDS, Firewall, System log Monitor, Server Log Monitor using Open Source intelligence tools
-- Introduced IoT Anonymity checker to protect IoT devices
+
+- Introduced auto detail collection of hackers using the bad IPs as collected by IDS, Firewall, System log Monitor, Server Log Monitor using Open Source Intelligence Tools (OSINT)
+
+- Introduced IoT Anonymity checker to protect IoT devices and check their visibility under the Shodan radar
+
 - Performed elemental connections of elements & introduced 3 modes (server, system and IoT)
-- Performed front-end Angular JS task
-- Last logins
-- Deployed on Heroku
-- Protect using HTTPS
-- Packaging
+
+- Performed front-end Angular JS touch-ups
+
+- Added last logins to the GUI dashboard
+
+- Deployed GUI preview on Heroku
+
+- Guide to enable local web serving over HTTPS
+
+- Final packaging
+
 - Performed bug fixes
+
 - Documentation - User guide & developer guide
+
 - Raised relevant issues
 
 ## Contributions
