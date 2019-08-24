@@ -16,9 +16,9 @@
     - [Commits](#commits)
     - [Contribution graph and status](#contribution-graph-and-status)
 
-- Blog posts made
+- [Blog posts made](#blog-posts-made)
 
-- Screenshots, screenscasts and tutorial videos
+- [Screenshots, screenscasts and tutorial videos](#screenshots,-screenscasts-and-tutorial-videos)
 
 - Future work
 
@@ -289,6 +289,14 @@ View list of commits [here](https://github.com/OWASP/SecureTea-Project/commits?a
 ### Contribution graph and status
 ![graph](/img/Commits_abhisharma404.png)
 ![graph](/img/Contributions_abhisharma404.png)
+
+## Blog posts made
+
+- Blog: https://abhisharma404.blogspot.com/
+- [GSoC 2019 with OWASP](https://abhisharma404.blogspot.com/2019/05/gsoc-2019-with-owasp.html)
+- [Implementing a real-time server log monitoring](https://medium.com/@abhishekchem98/implementing-a-real-time-server-log-monitoring-a6c26607eb69)
+
+## Screenshots, screenscasts and tutorial videos
 
 ## Future Work
 
