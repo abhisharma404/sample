@@ -375,8 +375,12 @@ I personally learnt a lot from my mentor, [@rejahrehim](https://github.com/rejah
 
 The last month has been a quite hectic. My summer break ended and I had to manage my academics as well as achieve my GSoC milestones. I was running to maintain my 75% attendance and pulling up all nighters to complete my assignments xD. But finally, I was able to complete all my GSoC milestones :). Loads of thanks to my mentor for understanding and cooperating with the situations.
 
+I would also like to thanks [@adeyosemanputra](https://github.com/adeyosemanputra). He's been like a brother through out the journey and taught me a lot. :)
+
 ## Conclusion
 
-A great journey comes to an end! I'm very thankful to all the people who kept me motivated during this journey, be it my team members, friends and parents. Though, GSoC comes to an end, I'll be actively contributing to open source.
+A great journey comes to an end! I'm very thankful to all the people who kept me motivated during this journey, be it my team members, friends and parents. I have met some amazing people and I have learnt a lot from them.
+
+Though, GSoC comes to an end, I'll be actively contributing to open source and SecureTea Project.
 
 <i>Keep calm and code</i>
