@@ -9,7 +9,7 @@
     - [Work done](#work-done)
 
 - [Contributions](#contributions)
-    - [Pull requests](#pull-requests)
+    - [Pull requests and issues](#pull-requests-and-issues)
         - [Detailed view in Google docs (with links to the PR)](https://docs.google.com/document/d/1lUO-T9zKRGRVDdsmppv_8HJkTVPsfPT6wpmE1cKCLo8/edit?usp=sharing)
         - [Minimal view in Google spreadsheet (with links to the PR)](https://docs.google.com/spreadsheets/d/1nxuYSdYKabez0-pdhyYFtrExwJtUiiV2UoeCJGnf82o/edit?usp=sharing)
         - [View here](#view-here)
@@ -127,7 +127,13 @@ Laying down a strong foundation & base architecture for Intrusion detection & pr
 - [Raised relevant issues](https://github.com/OWASP/SecureTea-Project/issues?q=is%3Aissue+author%3Aabhisharma404+is%3Aclosed)
 
 ## Contributions
-### Pull requests
+### Pull requests and issues
+
+- [Detailed view in Google docs (with links to the PR)](https://docs.google.com/document/d/1lUO-T9zKRGRVDdsmppv_8HJkTVPsfPT6wpmE1cKCLo8/edit?usp=sharing)
+- [Minimal view in Google spreadsheet] (with links to the PR)](https://docs.google.com/spreadsheets/d/1nxuYSdYKabez0-pdhyYFtrExwJtUiiV2UoeCJGnf82o/edit?usp=sharing)
+- [View here](#view-here)
+- [Commits](#commits)
+    
 #### View here
 |Date            |Type        |Status|ID  |Name                                                                                                   |
 |----------------|------------|------|----|-------------------------------------------------------------------------------------------------------|
@@ -277,6 +283,8 @@ Laying down a strong foundation & base architecture for Intrusion detection & pr
 |19.08.2019      |Pull Request|Merged|#237|Update setup.py for v2.0 release                                                                       |
 |19.08.2019      |Pull Request|Merged|#238|Update user guide to latest                                                                            |
 |19.08.2019      |Pull Request|Merged|#239|Update PyPi docs to latest                                                                             |
+### Commits
+View list of commits [here](https://github.com/OWASP/SecureTea-Project/commits?author=abhisharma404)
 
 ## Future Work
 
