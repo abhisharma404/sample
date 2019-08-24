@@ -377,6 +377,6 @@ The last month has been a quite hectic. My summer break ended and I had to manag
 
 ## Conclusion
 
-A great journey comes to an end! I'm very thankful to all the people who kept me motivated during this journey, be it my team members, friends and parents. Though, GSoC comes to an end,
+A great journey comes to an end! I'm very thankful to all the people who kept me motivated during this journey, be it my team members, friends and parents. Though, GSoC comes to an end, I'll be actively contributing to open source.
 
 <i>Keep calm and code</i>
