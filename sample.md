@@ -22,9 +22,9 @@
 
 - [Future work](#future-work)
 
-- Personal experience and journey
+- [Personal experience and journey](#personal-experience-and-journey)
 
-- Conclusion
+- [Conclusion](#conclusion)
 
 ## Overview
 
@@ -34,7 +34,7 @@
 - **Major:** Computer Science & Engineering
 - **University:** Chandigarh University
 - **GitHub:** [@abhisharma404](https://github.com/abhisharma404)
-- **E-mail:** abhishekchem98@gmail.com​, ​abhishek_official@hotmail.com
+- **E-mail:** abhishekchem98@gmail.com, abhishek_official@hotmail.com
 - **Telegram ID:** abhisharma404
 - **Personal website / blog:** https://abhisharma404.blogspot.com/
 - **Project URL:** https://www.github.com/OWASP/SecureTea-Project<br>
@@ -131,8 +131,11 @@ Laying down a strong foundation & base architecture for Intrusion detection & pr
 ### Pull requests and issues
 
 - [Detailed view in Google docs (with links to the PR)](https://docs.google.com/document/d/1lUO-T9zKRGRVDdsmppv_8HJkTVPsfPT6wpmE1cKCLo8/edit?usp=sharing)
+
 - [Minimal view in Google spreadsheet (with links to the PR)](https://docs.google.com/spreadsheets/d/1nxuYSdYKabez0-pdhyYFtrExwJtUiiV2UoeCJGnf82o/edit?usp=sharing)
+
 - [View here](#view-here)
+
 - [Commits](#commits)
     
 #### View here
@@ -365,3 +368,5 @@ It's been an amazing journey so far. I can say my learning graph has shown an ex
 GSoC changed my view towards software engineering, following a certain prototype model, planning and discussing before implementing anything is crucial for a good software development. It's not only about coding, regular testing and regular beta releases are very important.
 
 I personally learnt a lot from my mentor, @rejahrehim. He's been really supportive throughout the journey.
+
+## Conclusion
