@@ -18,7 +18,7 @@
 
 - [Blog posts made](#blog-posts-made)
 
-- [Screenshots, screenscasts and tutorial videos](#screenshots,-screenscasts-and-tutorial-videos)
+- [Screenshots screenscasts and tutorial videos](#screenshots-screenscasts-and-tutorial-videos)
 
 - [Future work](#future-work)
 
@@ -305,7 +305,17 @@ View list of commits [here](https://github.com/OWASP/SecureTea-Project/commits?a
 - [GSoC 2019 with OWASP](https://abhisharma404.blogspot.com/2019/05/gsoc-2019-with-owasp.html)
 - [Implementing a real-time server log monitoring](https://medium.com/@abhishekchem98/implementing-a-real-time-server-log-monitoring-a6c26607eb69)
 
-## Screenshots, screenscasts and tutorial videos
+## Screenshots screenscasts and tutorial videos
+
+**Angular JS GUI dashboard**
+![Last login dashboard](/img/dsh4.png)
+![Configuration fields](/img/dsh7.png)
+
+**Running Intrusion Detection System**
+![Running IDS](/img/ids_demo.gif)
+
+**Videos**
+https://www.youtube.com/watch?v=1vFaGxvzMh4
 
 ## Future Work
 
