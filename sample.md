@@ -294,7 +294,7 @@ Laying down a strong foundation & base architecture for Intrusion detection & pr
 |23.08.2019      |Pull Request|Open|#240|Update README for v2.0 release                                                                           |
 
 ### Commits
-View list of commits [here](https://github.com/OWASP/SecureTea-Project/commits?author=abhisharma404)
+View list of commits [here](https://github.com/OWASP/SecureTea-Project/commits?author=abhisharma404).
 
 ### Contribution graph and status
 
@@ -371,6 +371,12 @@ It's been an amazing journey so far. I can say my learning graph has shown an ex
 
 GSoC changed my view towards software engineering, following a certain prototype model, planning and discussing before implementing anything is crucial for a good software development. It's not only about coding instead regular testing, discussion with team members and regular beta releases are very important.
 
-I personally learnt a lot from my mentor, [@rejahrehim](https://github.com/rejahrehim). He's been really supportive throughout the journey.
+I personally learnt a lot from my mentor, [@rejahrehim](https://github.com/rejahrehim). He's been really supportive throughout the journey. The most important thing I learnt was keeping your calm and patience, and progressing with just one step at a time. I learned some good software development principles like maintaining a good commit history i.e. naming commits appropriately, which was something I overlooked every time. I'm really thankful of his support for all the techincal problems I faced midway.
+
+The last month has been a quite hectic. My summer break ended and I had to manage my academics as well as achieve my GSoC milestones. I was running to maintain my 75% attendance and pulling up all nighters to complete my assignments xD. But finally, I was able to complete all my GSoC milestones :). Loads of thanks to my mentor for understanding and cooperating with the situations.
 
 ## Conclusion
+
+A great journey comes to an end! I'm very thankful to all the people who kept me motivated during this journey, be it my team members, friends and parents. Though, GSoC comes to an end,
+
+<i>Keep calm and code</i>
