@@ -130,7 +130,7 @@ Laying down a strong foundation & base architecture for Intrusion detection & pr
 ### Pull requests and issues
 
 - [Detailed view in Google docs (with links to the PR)](https://docs.google.com/document/d/1lUO-T9zKRGRVDdsmppv_8HJkTVPsfPT6wpmE1cKCLo8/edit?usp=sharing)
-- [Minimal view in Google spreadsheet] (with links to the PR)](https://docs.google.com/spreadsheets/d/1nxuYSdYKabez0-pdhyYFtrExwJtUiiV2UoeCJGnf82o/edit?usp=sharing)
+- [Minimal view in Google spreadsheet (with links to the PR)](https://docs.google.com/spreadsheets/d/1nxuYSdYKabez0-pdhyYFtrExwJtUiiV2UoeCJGnf82o/edit?usp=sharing)
 - [View here](#view-here)
 - [Commits](#commits)
     
