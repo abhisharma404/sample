@@ -37,6 +37,7 @@
 - **E-mail:** abhishekchem98@gmail.com​, ​abhishek_official@hotmail.com
 - **Telegram ID:** abhisharma404
 - **Personal website / blog:** https://abhisharma404.blogspot.com/
+- **Project URL:** https://www.github.com/OWASP/SecureTea-Project<br>
 
 ### Project details
 
@@ -280,9 +281,11 @@ Laying down a strong foundation & base architecture for Intrusion detection & pr
 |18.08.2019      |Pull Request|Merged|#232|End SSID spoof scanning loop when scanning not supported by the interface & safely log the message     |
 |18.08.2019      |Pull Request|Merged|#233|Create guide for setting up local web serving over HTTPS                                               |
 |19.08.2019      |Pull Request|Merged|#236|Re-structure, re-design and update the README.md                                                       |
-|19.08.2019      |Pull Request|Merged|#237|Update setup.py for v2.0 release                                                                       |
 |19.08.2019      |Pull Request|Merged|#238|Update user guide to latest                                                                            |
 |19.08.2019      |Pull Request|Merged|#239|Update PyPi docs to latest                                                                             |
+|22.08.2019      |Pull Request|Merged|#237|Update setup.py for v2.0 release                                                                       |
+|23.08.2019      |Pull Request|Open|#240|Update README for v2.0 release                                                                           |
+
 ### Commits
 View list of commits [here](https://github.com/OWASP/SecureTea-Project/commits?author=abhisharma404)
 
