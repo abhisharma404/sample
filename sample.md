@@ -316,12 +316,14 @@ The followings are the projected milestone for the next release:
     - **SecureTea browser plugin:** A plugin which can scan for harmful URL, monitor every URL, detect phishing sites & restrict internet activity.
     - **Real-time log visualization & monitoring dashboard:** If plotted in a graph with the right metrics, they can give back so vitalinformation just by looking. And plotting them realtime? ​ We are catching a thief red-handed​ , that’s quite cool! We can use Plotly to build this, it’s much more easy to integrate with a Flask app.
     - **Enhance AntiVirus:**
-      a. Behavioural​ based:
-          i. Bring machine learning to detect and predict malware using Portable Executable(PE) headers​ .
-          ii. Analyze the behaviour of a file by looking at its ​ API call​, it’s h​ooks with the Kernel​, it’s startup​, ​ system calls​ & TCP connections by using machine & deep learning.
-          iii. Convolutional neural networks ​ (CNN)​ for ​ malware visualization​ .
-      b. Integrate volatility​ to perform m emory malware​ analysis.
-        i. Catching memory malware is one of the toughest thing out there, catching it will advance our anti-virus even more.
+    
+        **a. Behavioural based:<br>**
+            i. Bring machine learning to detect and predict malware using Portable Executable(PE) headers.<br>
+            ii. Analyze the behaviour of a file by looking at its API call, it’s hooks with the Kernel, it’s startup, system calls & TCP connections by using machine & deep learning.<br>
+            iii. Convolutional neural networks (CNN) for malware visualization
+            
+        **b. Integrate volatility to perform m emory malware analysis:<br>**
+            i. Catching memory malware is one of the toughest thing out there, catching it will advance our anti-virus even more.
 
 ## Personal experience and journey
 
