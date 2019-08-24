@@ -308,14 +308,24 @@ View list of commits [here](https://github.com/OWASP/SecureTea-Project/commits?a
 ## Screenshots screenscasts and tutorial videos
 
 **Angular JS GUI dashboard**
+
 ![Last login dashboard](/img/dsh4.png)
+
 ![Configuration fields](/img/dsh7.png)
 
 **Running Intrusion Detection System**
-![Running IDS](/img/ids_demo.gif)
+
+![Running IDS Recon](/img/ids_demo.gif)
+
+![Running IDS R2L](/img/using_ids_mitm.gif)
+
+**Running Anti Virus**
+
+![Running AntiVirus](/img/using_antivirus.gif)
 
 **Videos**
-https://www.youtube.com/watch?v=1vFaGxvzMh4
+
+[Using SecureTea Web Deface Detection & Prevention System](https://www.youtube.com/watch?v=1vFaGxvzMh4)
 
 ## Future Work
 
