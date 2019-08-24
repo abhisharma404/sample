@@ -58,47 +58,62 @@ Laying down a strong foundation & base architecture for Intrusion detection & pr
 
 Summary of the work done during the GSoC Phase (I - III):
 
-- Implemented Intrusion Detection System capable of detecting R2L attacks and reconnaissance attacks
+- Implemented Intrusion Detection System capable of detecting:
+    - [DoS and R2L attacks](https://github.com/OWASP/SecureTea-Project/pull/102)
+    - [Reconnaissance attacks](https://github.com/OWASP/SecureTea-Project/pull/101)
            
-- Introduced advanced packet filter rules for Firewall:
+- Introduced advanced packet filter rules & PCAP dumping for Firewall:
 
-    Improved the overall functionalities of the current firewall by adding new packet rules at
-    IP, TCP & ICMP level to detect attacks like fragmentation, malicious and malformed
-    packets, enable PCAP dumping of rejected packets.
+    - [Improved the overall functionalities of the current firewall by adding new packet rules at
+      IP, TCP & ICMP level to detect attacks like fragmentation, malicious and malformed
+      packets, enable PCAP dumping of rejected packets](https://github.com/OWASP/SecureTea-Project/pull/104)
       
-- Implemented System Log Monitor capable of detecting un-authorized system manipulation and attacks
+- [Implemented System Log Monitor capable of detecting un-authorized system manipulation and attacks](https://github.com/OWASP/SecureTea-Project/pull/126)
 
-- Implemented Server Log Monitor capable of processing Apache & Nginx log files to detect web attacks
+- [Implemented Server Log Monitor capable of processing Apache & Nginx log files to detect web attacks](https://github.com/OWASP/SecureTea-Project/pull/138)
 
-- Implemented AntiVirus by using signature scanning and incorporating other open source antivirus for heruistic scanning
+- [Implemented AntiVirus by using signature scanning and incorporating other open source antivirus for heruistic scanning](https://github.com/OWASP/SecureTea-Project/pull/151)
 
-- Introduced SecureTea Auto Server Patcher to patch system and server configurations for maximum security features & overcome common deployment mistakes
+- [Introduced SecureTea Auto Server Patcher to patch system and server configurations for maximum security features & overcome common deployment mistakes](https://github.com/OWASP/SecureTea-Project/pull/142)
 
-- Implemented Local web deface detection & prevention mechanism
+- [Implemented Local web deface detection & prevention mechanism](https://github.com/OWASP/SecureTea-Project/pull/146)
 
-- Brought intelligence to Firewall by making it learn bad IPs from Intrusion Detection System, System Log Monitor, Server Log Monitor
+- Brought intelligence to Firewall by making it learn bad IPs from:
+    - [Intrusion Detection System](https://github.com/OWASP/SecureTea-Project/pull/183)
+    - [System Log Monitor](https://github.com/OWASP/SecureTea-Project/pull/185)
+    - [Server Log Monitor](https://github.com/OWASP/SecureTea-Project/pull/184)
 
-- Introduced auto detail collection of hackers using the bad IPs as collected by IDS, Firewall, System log Monitor, Server Log Monitor using Open Source Intelligence Tools (OSINT)
+- [Introduced Open Source Intelligence Tools (OSINT) tool](https://github.com/OWASP/SecureTea-Project/pull/152)
 
-- Introduced IoT Anonymity checker to protect IoT devices and check their visibility under the Shodan radar
+- Introduced auto detail collection of hackers using the bad IPs and OSINT tools as collected by:
+    - [Intrusion Detection System](https://github.com/OWASP/SecureTea-Project/pull/181)
+    - [Firewall](https://github.com/OWASP/SecureTea-Project/pull/179)
+    - [System log Monitor](https://github.com/OWASP/SecureTea-Project/pull/182)
+    - [Server Log Monitor](https://github.com/OWASP/SecureTea-Project/pull/180)
 
-- Performed elemental connections of elements & introduced 3 modes (server, system and IoT)
+- [Introduced IoT Anonymity checker to protect IoT devices and check their visibility under the Shodan radar](https://github.com/OWASP/SecureTea-Project/pull/153)
+
+- Performed elemental connections of elements & introduced 3 modes:
+    - [Server mode](https://github).com/OWASP/SecureTea-Project/pull/187)
+    - [System mode](https://github.com/OWASP/SecureTea-Project/pull/188)
+    - [IoT mode](https://github.com/OWASP/SecureTea-Project/pull/190)
 
 - Performed front-end Angular JS touch-ups
+    - [View list of PRs](https://github.com/OWASP/SecureTea-Project/pulls?utf8=%E2%9C%93&q=GUI)
 
-- Added last logins to the GUI dashboard
+- [Added last logins to the GUI dashboard](https://github.com/OWASP/SecureTea-Project/pull/205)
 
-- Deployed GUI preview on Heroku
+- [Deployed GUI preview on Heroku](https://github.com/OWASP/SecureTea-Project/pull/236)
 
-- Guide to enable local web serving over HTTPS
+- [Guide to enable local web serving over HTTPS](https://github.com/OWASP/SecureTea-Project/pull/233)
 
-- Final packaging
+- [Final packaging](https://github.com/OWASP/SecureTea-Project/pull/237)
 
 - Performed bug fixes
 
-- Documentation - User guide & developer guide
+- [Documentation - User guide & developer guide](https://github.com/OWASP/SecureTea-Project/issues?utf8=%E2%9C%93&q=docs+author%3Aabhisharma404)
 
-- Raised relevant issues
+- [Raised relevant issues](https://github.com/OWASP/SecureTea-Project/issues?q=is%3Aissue+author%3Aabhisharma404+is%3Aclosed)
 
 ## Contributions
 ### Pull requests
