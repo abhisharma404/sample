@@ -145,7 +145,7 @@ Laying down a strong foundation & base architecture for Intrusion detection & pr
 #### View here
 |Date            |Type        |Status|ID  |Name                                                                                                   |
 |----------------|------------|------|----|-------------------------------------------------------------------------------------------------------|
-|Pre-GSoC        |            |      |    |                                                                                                       |
+|**Pre-GSoC**        |            |      |    |                                                                                                       |
 |13.01.2019      |Issue       |Closed|#9  |Error while installing                                                                                 |
 |13.01.2019      |Pull Request|Merged|#10 |Fix #9 setup error                                                                                     |
 |13.01.2019      |Pull Request|Merged|#11 |Add badges, fixed typos & others                                                                       |
@@ -174,7 +174,7 @@ Laying down a strong foundation & base architecture for Intrusion detection & pr
 |20.04.2019      |Pull Request|Closed|#88 |Fix #52 - sqlite3 operational error                                                                    |
 |20.04.2019      |Pull Request|Closed|#89 |Add libnetfilterqueue to pre-requisites                                                                |
 |                |            |      |    |                                                                                                       |
-|GSoC Phase - I  |            |      |    |                                                                                                       |
+|**GSoC Phase - I**  |            |      |    |                                                                                                       |
 |12.05.2019      |Pull Request|Merged|#99 |Add unittest for AWS                                                                                   |
 |15.05.2019      |Pull Request|Merged|#100|Add docstrings to un-documented functions/methods                                                      |
 |18.05.2019      |Pull Request|Merged|#101|Add SecureTea IDS (recon)                                                                              |
@@ -205,7 +205,7 @@ Laying down a strong foundation & base architecture for Intrusion detection & pr
 |21.07.2019      |Pull Request|Merged|#177|User docs: Add OSINT feature details                                                                   |
 |21.07.2019      |Pull Request|Merged|#178|PyPi: Add OSINT details                                                                                |
 |                |            |      |    |                                                                                                       |
-|GSoC Phase - II |            |      |    |                                                                                                       |
+|**GSoC Phase - II** |            |      |    |                                                                                                       |
 |18.06.2019      |Pull Request|Merged|#138|Feature: Add Server log monitor                                                                        |
 |18.06.2019      |Pull Request|Merged|#139|Add server log documentation (user)                                                                    |
 |18.06.2019      |Pull Request|Merged|#140|Add server log docs (PyPi)                                                                             |
@@ -235,7 +235,7 @@ Laying down a strong foundation & base architecture for Intrusion detection & pr
 |21.07.2019      |Pull Request|Merged|#177|User docs: Add OSINT feature details                                                                   |
 |21.07.2019      |Pull Request|Merged|#178|PyPi: Add OSINT details                                                                                |
 |                |            |      |    |                                                                                                       |
-|GSoC Phase - III|            |      |    |                                                                                                       |
+|**GSoC Phase - III**|            |      |    |                                                                                                       |
 |23.07.2019      |Pull Request|Merged|#179|Elemental connection: Connect OSINT with Firewall                                                      |
 |24.07.2019      |Pull Request|Merged|#180|Elemental connection: Connect server log monitor to OSINT                                              |
 |24.07.2019      |Pull Request|Merged|#181|Elemental connection: Connect OSINT with IDS                                                           |
@@ -365,12 +365,12 @@ The followings are the projected milestone for the next release:
 
 ## Personal experience and journey
 
-Can't beleive it's been 8 months since I started contributing to OWASP. Time flies by so fast. I remember the first contribution I made to SecureTea-Project was a simple correction in the setup packaging & some readme typos. Since then I progressed to understand the code base at a more deeper leve l and started sending some core patches and that was it.
+Can't beleive it's been 8 months since I started contributing to OWASP Foundation. Time flies by so fast. I remember the first contribution I made to SecureTea-Project was a simple correction in the setup packaging & some readme typos. Since then I progressed to understand the code base at a more deeper level and started sending some core patches and that was it.
 
-It's been an amazing journey so far. I can say my learning graph has shown an exponential growth. I have learned a lot during the last 3-4 months. I understood the importacne of unit-tests and testing in general, understood that software is not only about coding, but a lot goes in maintaining a decent documentation and providing an intuitive version of software to the users for a satisfying user experience. Earlier, I considered tests as a waste of time and effort, use that time to impelement a new feature or improve the current. I was wrong at many levels! As our codebase continued to grow, I understood testing keeps the code intact without you worrying about the regression when adding or a modifying a feature.
+It's been an amazing journey so far. I can say my learning graph has shown an exponential growth. I have learned a lot during the last 3-4 months. I understood the importance of unit-tests and testing in general, understood that software is not only about coding, but a lot goes in maintaining a decent documentation and providing an intuitive version of software to the users for a satisfying user experience. Earlier, I considered tests as a waste of time and effort, instead tried to use that time to impelement a new feature or improve the current. I was wrong at many levels! As our codebase continued to grow, I understood testing keeps the code intact without you worrying about the regression when adding or a modifying a feature.
 
-GSoC changed my view towards software engineering, following a certain prototype model, planning and discussing before implementing anything is crucial for a good software development. It's not only about coding, regular testing and regular beta releases are very important.
+GSoC changed my view towards software engineering, following a certain prototype model, planning and discussing before implementing anything is crucial for a good software development. It's not only about coding instead regular testing, discussion with team members and regular beta releases are very important.
 
-I personally learnt a lot from my mentor, @rejahrehim. He's been really supportive throughout the journey.
+I personally learnt a lot from my mentor, [@rejahrehim](https://github.com/rejahrehim). He's been really supportive throughout the journey.
 
 ## Conclusion
