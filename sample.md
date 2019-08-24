@@ -286,6 +286,10 @@ Laying down a strong foundation & base architecture for Intrusion detection & pr
 ### Commits
 View list of commits [here](https://github.com/OWASP/SecureTea-Project/commits?author=abhisharma404)
 
+### Contribution graph and status
+![graph](/img/Commits_abhisharma404.png)
+![graph](/img/Contributions_abhisharma404.png)
+
 ## Future Work
 
 The followings are the projected milestone for the next release:
